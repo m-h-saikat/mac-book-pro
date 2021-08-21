@@ -4,10 +4,8 @@
    const getExtraMemoryCost =  document.getElementById('extraMemoryCost').innerText=0;
    totalPriceCalculate();
  }
-
  function sixteenGB()
  {
-   
     const getExtraMemoryCost =  document.getElementById('extraMemoryCost').innerText=180;
     totalPriceCalculate();
  }
@@ -15,7 +13,6 @@ function ssdTowFiftyGB()
 {
    const getExtraStorageCost =  document.getElementById('extraStorageCost').innerText=0;
    totalPriceCalculate();
-  
 }
 function ssdFiveTwelveGB()
 {
@@ -27,7 +24,6 @@ function ssdOneGB()
    const getExtraStorageCost =  document.getElementById('extraStorageCost').innerText=180;
    totalPriceCalculate();
 }
-
 function freeDelivery()
 {
    let getDeliveryCost =  document.getElementById('deliveryCharge').innerText=0;
@@ -37,13 +33,9 @@ function deliveryWithCost()
 {
    let getDeliveryCost =  document.getElementById('deliveryCharge').innerText=20;
    totalPriceCalculate();
-
 }
-
-
 //Total Price Calculated
-function totalPriceCalculate(){
-   
+function totalPriceCalculate(){  
 const getExtraMemoryCost =  document.getElementById('extraMemoryCost').innerText;
 const extraMemoryPrice=parseInt(getExtraMemoryCost);
 const getExtraStorageCost =  document.getElementById('extraStorageCost').innerText;
@@ -55,8 +47,6 @@ let totalPriceValue=parseInt(getTotalPriceValue);
 const totalPrice= extraMemoryPrice+ExtraStorageCost+DeliveryCost+totalPriceValue;
 document.getElementById('totalPrice').innerText=totalPrice;
 document.getElementById('priceWithPromoCode').innerText=totalPrice;
-
-
 }
 //Total Price with Promo Code
 function promoCode()
