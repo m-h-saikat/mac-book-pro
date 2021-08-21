@@ -10,52 +10,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container px-1">
-    <div class="row gx-5">
+  <div class="container-fluid mt-5">
+    <div class="row gx-2 mx-4">
       <div class="col">
-       <div class="p-3  "><img class="img-fluid" src="images/mac.png" width="978" height="882" alt=""></div>
+       <div class="p-3  justify-content-center mt-5 mx-auto">
+          <img class="img-fluid" src="images/mac.png"  alt=""></div>
       </div>
       <div class="col">
         <div class="p-3  "><div class="conatiner"><h1>
-            Customize your Blue 24-inch <br> iMac with Apple M1 chip.
+            Customize your Blue 24-inch iMac with Apple M1 chip.
          </h1>
      <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - US English</p></div>
      <!-- Memory Section Start -->
-     <div class="container">
-         <h3>Memory</h3>
+     <div class="container mt-5 ">
+         <h3 class="mb-4">Memory</h3>
          <div class=" d-flex  gx-3">
-             <button class="btn btn-light mx-3" id="eightGB" onclick="eightGB()">8GB unified memory
+             <button class="btn btn-light mx-1" id="eightGB" onclick="eightGB()">8GB unified memory
              </button>
-             <button class="btn btn-light mx-3" id="sixteenGB" onclick="sixteenGB()">16GB unified memory
+             <button class="btn btn-light mx-1" id="sixteenGB" onclick="sixteenGB()">16GB unified memory
  
              </button>
          </div>
      </div>
          <!-- Memory Section End -->
              <!-- Storage Section Start -->
-     <div class="container">
-         <h3>Storage</h3>
+     <div class="container mt-3">
+         <h3 class="mb-4">Storage</h3>
          <div class=" d-flex">
-             <button class="btn btn-light mx-3" id="ssdTowFiftyGB" onclick="ssdTowFiftyGB()">256GB SSD storage
+             <button class="btn btn-light mx-1" id="ssdTowFiftyGB" onclick="ssdTowFiftyGB()">256GB SSD storage
  
              </button>
-             <button class="btn btn-light mx-3" id="ssdFiveTwelveGB" onclick="ssdFiveTwelveGB()">512GB SSD storage
+             <button class="btn btn-light mx-1" id="ssdFiveTwelveGB" onclick="ssdFiveTwelveGB()">512GB SSD storage
              </button>
-             <button class="btn btn-light mx-3" id="ssdOneGB" onclick="ssdOneGB()">1TB SSD storage
+             <button class="btn btn-light mx-1 border border-secondary" id="ssdOneGB" onclick="ssdOneGB()">1TB SSD storage
              </button>
          </div>
      </div>
          <!-- Storage Section End -->
           <!-- Choose your delivery option
   Section Start -->
-     <div class="container">
-         <h3>Choose your delivery option
+     <div class="container mt-3">
+         <h3 class="mb-4">Choose your delivery option
          </h3>
          <div class=" d-flex">
-             <button class="btn btn-light mx-3" id="freeDelivery">Friday, Aug 25 FREE Prime Delivery
+             <button class="btn btn-light mx-1" id="freeDelivery" onclick="freeDelivery()">Friday, Aug 25 FREE Prime Delivery
  
              </button>
-             <button class="btn btn-light mx-3" id="deliveryWithCost">Friday, Aug 21 Delivery charge $20
+             <button class="btn btn-light mx-1" id="deliveryWithCost"onclick="deliveryWithCost()">Friday, Aug 21 Delivery charge $20
  
              </button>
           
@@ -108,7 +109,7 @@
      <h4>Add Promo code</h4>
      <div>
          <input type="text" name="" id="promoCode">
-         <button id="promoCodeButton" class="btn mx-3 btn-danger">Apply</button>
+         <button id="promoCodeButton" class="btn mx-3 btn-danger" onclick="promoCode()">Apply</button>
      </div>
  </div></div>
       </div>

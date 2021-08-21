@@ -1,0 +1,19 @@
+.btn:hover{
+    background:black;
+    color: white;
+
+}
+.btn {
+    border:1px solid black;
+    font-size:1.5em;
+}
+td{
+    font-weight: 700;
+    font-size:20px;
+}
+h1{
+    font-size:3em;
+}
+p{
+    font-size:1.5em
+}
