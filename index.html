@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container-fluid mt-5">
+  <div class="container-fluid mt-5 ">
     <div class="row gx-2 mx-4">
+      <!-- Image section Start  -->
       <div class="col">
        <div class="p-3  justify-content-center mt-5 mx-auto">
-          <img class="img-fluid" src="images/mac.png"  alt=""></div>
+          <img class="img-fluid w-75 mx-auto ms-5" src="images/mac.png"  alt=""></div>
       </div>
+            <!-- Image section End  -->
+
       <div class="col">
         <div class="p-3  "><div class="conatiner"><h1>
             Customize your Blue 24-inch iMac with Apple M1 chip.
@@ -34,7 +37,7 @@
      </div>
          <!-- Memory Section End -->
              <!-- Storage Section Start -->
-     <div class="container mt-3">
+     <div class="container mt-5">
          <h3 class="mb-4">Storage</h3>
          <div class=" d-flex">
              <button class="btn btn-light mx-1" id="ssdTowFiftyGB" onclick="ssdTowFiftyGB()">256GB SSD storage
@@ -49,7 +52,7 @@
          <!-- Storage Section End -->
           <!-- Choose your delivery option
   Section Start -->
-     <div class="container mt-3">
+     <div class="container mt-5">
          <h3 class="mb-4">Choose your delivery option
          </h3>
          <div class=" d-flex">
@@ -67,7 +70,7 @@
  
   <!-- Total Cost Section Start --> 
   
-  <table class="table caption-top w-50 mt-4">
+  <table class="table caption-top w-50 mt-5">
  
    
      <tbody>
@@ -105,20 +108,24 @@
    
    
     <!-- Total Cost Section End --> 
- <div class="promo-code">
+
+     <!-- Promo Code Section Start --> 
+ <div class="promo-code mt-3">
      <h4>Add Promo code</h4>
      <div>
          <input type="text" name="" id="promoCode">
-         <button id="promoCodeButton" class="btn mx-3 btn-danger" onclick="promoCode()">Apply</button>
+         <button id="promoCodeButton" class="btn  btn-danger" onclick="promoCode()">Apply</button>
      </div>
- </div></div>
+ </div>
+ <!-- Promo Code Section Start --> 
+</div>
       </div>
     </div>
   </div>
 
 <hr>
 <footer>
-    <h4 class="text-center">Total: $<span id="priceWithPromoCode">1299</span></h4>
+    <h1 class="text-center">Total: $<span id="priceWithPromoCode">1299</span></h1>
 </footer>
 
  

@@ -1,7 +1,4 @@
-
-
-
-
+//Set Every button  its Initial Price
  function eightGB()
  {
    const getExtraMemoryCost =  document.getElementById('extraMemoryCost').innerText=0;
@@ -45,9 +42,6 @@ function deliveryWithCost()
 
 
 //Total Price Calculated
-
-
-
 function totalPriceCalculate(){
    
 const getExtraMemoryCost =  document.getElementById('extraMemoryCost').innerText;
@@ -62,14 +56,8 @@ const totalPrice= extraMemoryPrice+ExtraStorageCost+DeliveryCost+totalPriceValue
 document.getElementById('totalPrice').innerText=totalPrice;
 document.getElementById('priceWithPromoCode').innerText=totalPrice;
 
-console.log(totalPrice);
+
 }
-
-
-
-
-
-
 //Total Price with Promo Code
 function promoCode()
 {
@@ -81,6 +69,7 @@ function promoCode()
      const TotalPrice=parseInt(getTotalPriceValue);
      const priceWithPromoCode=TotalPrice-(TotalPrice*(20/100));
      getTotal.innerText = priceWithPromoCode;
+     document.getElementById('promoCode').value='';
    }
    else{
       let getTotal=document.getElementById('priceWithPromoCode');
@@ -88,5 +77,6 @@ function promoCode()
      const TotalPrice=parseInt(getTotalPriceValue);
    //   const priceWithPromoCode=TotalPrice-(TotalPrice*(20/100));
      getTotal.innerText = TotalPrice;
+     document.getElementById('promoCode').value='';
    }
 }

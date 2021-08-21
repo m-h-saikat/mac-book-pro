@@ -1,3 +1,4 @@
+
 .btn:hover{
     background:black;
     color: white;
@@ -5,7 +6,7 @@
 }
 .btn {
     border:1px solid black;
-    font-size:1.5em;
+    font-size:1.2em;
 }
 td{
     font-weight: 700;
